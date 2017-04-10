@@ -1,4 +1,0 @@
-admin_routing:
-    resource: '.'
-    prefix: "%bbit_admin.route_prefix%"
-    type: admin
