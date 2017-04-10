@@ -8,6 +8,16 @@ Appkernel:
     new BBIT\DataGridBundle\BBITDataGridBundle(),
     new Knp\Bundle\PaginatorBundle\KnpPaginatorBundle(),
 
+
+Config: 
+
+    knp_menu:
+        twig:
+            template: BBITAdminBundle:Menu:menu.html.twig
+    
+    bbit_admin:
+        route_prefix: admin
+
     
 Create AdminClass:
 
